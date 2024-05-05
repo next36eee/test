@@ -18,22 +18,26 @@ import pandas as pd
 from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
+# Add custom CSS to hide the GitHub icon
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 
-def run():
-    st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
-    )
 
-    st.write("# Welcome to Streamlit! 👋")
-    
-    st.write("Here's our first attempt at using data to create a table:")
-    st.write(pd.DataFrame({
-        'first column': [1, 2, 3, 4],
-        'second column': [10, 20, 30, 40]
-    }))
+st.write("# Welcome to Streamlit! 👋")
+
+st.write("Here's our first attempt at using data to create a table:")
+st.write(pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40]
+}))
  
 
-if __name__ == "__main__":
-    run()
