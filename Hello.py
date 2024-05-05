@@ -25,7 +25,7 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    .st-emotion-cache-18ni7ap, .ezrtsby2{
+    .st-emotion-cache-18ni7ap, .ezrtsby2,.styles_terminalButton__JBj5T{
         display: none;
     }
     </style>
