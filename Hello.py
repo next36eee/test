@@ -25,7 +25,7 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    #stHeader{
+    .st-emotion-cache-18ni7ap ezrtsby2{
         display: none;
     }
     </style>
