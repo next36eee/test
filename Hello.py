@@ -28,6 +28,9 @@ st.markdown(
     .st-emotion-cache-18ni7ap, .ezrtsby2,.styles_terminalButton__JBj5T{
         display: none;
     }
+    button[data-testid="manage-app-button"] {
+    display: none;
+    }
     </style>
     """,
     unsafe_allow_html=True
