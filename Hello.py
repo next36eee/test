@@ -5,6 +5,9 @@ import folium
 # Apply custom style using HTML and CSS
 st.markdown("""
     <style>
+      .map-container {
+            margin-bottom: -10px; /* Reduce space between map and next component */
+        }
         .card {
             background-color: #fffaf0;
             margin-top:5px;
@@ -92,18 +95,23 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-location_coords = [13.633796, 79.442083]  # Coordinates for the location
-m = folium.Map(location=location_coords, zoom_start=15)
-
-# Add a marker for the event location
-folium.Marker(location_coords, tooltip="Our New Home").add_to(m)
+# location_coords = [13.633796, 79.442083]  # Coordinates for the location
+# m = folium.Map(location=location_coords, zoom_start=16)
+#
+# # Add a marker for the event location
+# folium.Marker(location_coords, tooltip="Our New Home").add_to(m)
+# st_folium(m, width=None, height=350)
 
 # Display the map
-st_folium(m, width=700, height=400)
+st.markdown("""
+    <div style="margin-top:0px !important;padding:0px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d31019.1499631962!2d79.42148363476564!3d13.633796199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDM4JzAxLjciTiA3OcKwMjYnMzEuNSJF!5e0!3m2!1sen!2sin!4v1736684616829!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+""", unsafe_allow_html=True)
 
 # Button to view location in Google Maps, centered
 st.markdown("""
-    <div class="center-button" style="margin-top:0px;">
+    <div class="center-button" style="margin-top:0px !important;padding:0px;">
         <a href="https://www.google.com/maps?q=13.633796,79.442083" target="_blank">
             <button style="padding: 10px 20px; background-color: #ff7f50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
                 View Location in Google Maps
@@ -125,5 +133,3 @@ st.markdown("""
         </div>
     </div>
 """, unsafe_allow_html=True)
-
-
