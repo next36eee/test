@@ -123,11 +123,10 @@ st.markdown("""
 # Closing statement
 st.markdown("""
     <div class="card">
-        
-        <div class="footer">
+          <div class="footer">
             With Warm Regards,<br>
-            Naresh & Jyothsna Family👨‍👩‍👦‍👦<br>
-            PH: 7989767695, 7386486164
-        </div>
+            Naresh & Jyothsna Family👨‍👩‍👦‍👦,<br>
+            PH: 7989767695, 7386486164.
+           </div>
     </div>
 """, unsafe_allow_html=True)
