@@ -59,7 +59,7 @@ st.markdown("""
 # Title and header with background image
 st.markdown("""
     <div class="title-card">
-        <div class="title" style="color:black;">🎉 House warming Ceremony Invitation 🎉</div>
+        <div class="title" style="color:black;">🎉 House Warming Ceremony Invitation 🎉</div>
         <div class="subheader" style="color:black;">You're Invited!</div>
     </div>
 """, unsafe_allow_html=True)
