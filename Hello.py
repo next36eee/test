@@ -87,13 +87,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Adding a map with the location
-st.markdown("""
-    <div class="card">
-        <div class="content">
-            📍 <b>Event Location:</b>
-        </div>
-    </div>
-""", unsafe_allow_html=True)
+# st.markdown("""
+#     <div class="card">
+#         <div class="content">
+#             📍 <b>Event Location:</b>
+#         </div>
+#     </div>
+# """, unsafe_allow_html=True)
 
 # location_coords = [13.633796, 79.442083]  # Coordinates for the location
 # m = folium.Map(location=location_coords, zoom_start=16)
