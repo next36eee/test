@@ -81,7 +81,7 @@ st.markdown("""
             <b>Date</b>: 31st January 2025<br>
             <b>Time</b>: 05:00 AM onwards<br>
             <b>Venue</b>:<br>
-            Tirupati, AP 
+            Ravindra Nagar, Tirupati, AP 
         </div>
     </div>
 """, unsafe_allow_html=True)
@@ -123,13 +123,11 @@ st.markdown("""
 # Closing statement
 st.markdown("""
     <div class="card">
-        <div class="content">
-            We look forward to seeing you there! 😊<br>
-            For any queries, feel free to contact us at: <b>+91-7386986164</b>
-        </div>
+        
         <div class="footer">
             With Warm Regards,<br>
-            Naresh & Jyothsna Family👨‍👩‍👦‍👦
+            Naresh & Jyothsna Family👨‍👩‍👦‍👦<br>
+            PH: 7989767695, 7386486164
         </div>
     </div>
 """, unsafe_allow_html=True)
