@@ -59,7 +59,7 @@ st.markdown("""
 # Title and header with background image
 st.markdown("""
     <div class="title-card">
-        <div class="title" style="color:black;">🎉 Housewarming Ceremony Invitation 🎉</div>
+        <div class="title" style="color:black;">🎉 House warming Ceremony Invitation 🎉</div>
         <div class="subheader" style="color:black;">You're Invited!</div>
     </div>
 """, unsafe_allow_html=True)
@@ -68,7 +68,7 @@ st.markdown("""
 st.markdown("""
     <div class="card">
         <div class="content">
-            We are thrilled to invite you to our housewarming ceremony to celebrate our new home.  
+            We are thrilled to invite you to our house warming ceremony to celebrate our new home.  
             Join us for a joyous day filled with love, laughter, and blessings!  
         </div>
     </div>
