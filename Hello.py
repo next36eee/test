@@ -80,7 +80,7 @@ st.markdown("""
         <div class="content">
             <b>Date</b>: 31st January 2025<br>
             <b>Time</b>: 05:00 AM onwards<br>
-            <b>Venue</b>:<br>
+            <b>Venue</b>:
             Ravindra Nagar, Tirupati, AP 
         </div>
     </div>
