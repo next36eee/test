@@ -13,6 +13,10 @@ st.markdown("""
       .map-container {
             margin-bottom: -10px; /* Reduce space between map and next component */
         }
+        sup {
+            vertical-align: super;
+            font-size: medium;
+        }
         .card {
             background-color: #fffaf0;
             margin-top:5px;
@@ -95,9 +99,10 @@ st.markdown("""
     <div class="card1">
         <div class="content">
             <b>Date</b>: 31st January 2025<br>
-            <b>Time</b>: 05:00 AM onwards<br>
+            <b>Time</b>: 05:00 AM <br>
+             <b>Lunch</b>: 12:00 PM <br>
             <b>Venue</b>:
-            Ravindra Nagar, Tirupati, AP 
+            7<sup>th</sup> Ravindra Nagar, Tirupati, AP 
         </div>
     </div>
 """, unsafe_allow_html=True)
