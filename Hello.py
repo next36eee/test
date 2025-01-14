@@ -102,7 +102,7 @@ st.markdown("""
             <b>Time</b>: 05:00 AM <br>
              <b>Lunch</b>: 12:00 PM <br>
             <b>Venue</b>:
-            7<sup>th</sup> Ravindra Nagar, Tirupati, AP 
+            7<sup>th</sup> Cdoss, Ravindra Nagar, Tirupati, AP 
         </div>
     </div>
 """, unsafe_allow_html=True)
