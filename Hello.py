@@ -140,7 +140,7 @@ st.markdown("""
 st.markdown("""
     <div class="card">
           <div class="footer">
-            With Warm Regards,<br>
+            With Warm Regards😊,<br>
             Naresh & Jyothsna Family👨‍👩‍👦‍👦,<br>
             PH: 7989767695, 7386986164.
            </div>
