@@ -100,7 +100,7 @@ st.markdown("""
         <div class="content">
             <b>Date</b>: 31st January 2025<br>
             <b>Time</b>: 05:00 AM <br>
-             <b>Lunch</b>: 12:00 PM <br>
+             <b>Lunch</b>: 12:00 PM onwards<br>
             <b>Venue</b>:
             7<sup>th</sup> Cross, Ravindra Nagar, Tirupati, AP 
         </div>
